@@ -1,10 +1,17 @@
 import "./App.css";
+ import Navbar from "./components/Navbar/Navbar";
+ import Login from "./pages/Login";
+ 
 
 function App() {
   return (
     <div className="App">
       {
-        // Code here
+        <>
+       
+         <Navbar/>
+         <Login/>
+      </>
       }
     </div>
   );
